@@ -27,4 +27,4 @@ If your opponent takes the center
 When your opponent follows by choosing the center square as their first move, you may still have a chance of winning if your opponent makes an error later in the game. Otherwise, each player's perfect series of moves will end in a draw.Respond by placing your second X in the opposite corner square, diagonally from the square where you made your first move. Each player's position will be X-O-X. Play the last corner available, and you will have a double chance for victory! If your opponent takes one of the other corner squares, you can be sure to win. 
 
 Win at Tick Tack Toe when your opponent does not follow with the center
-Your victory is assured if your opponent moves their O somewhere other than in the center square. Respond by placing your second X in a corner while keeping an empty square next to your initial X.
+Your victory is assured if your opponent moves their O somewhere other than in the center square. Respond by placing your second X in a corner while keeping an empty square next to your initial X. https://keniakfa.github.io/Tic-Tac-Toe/
