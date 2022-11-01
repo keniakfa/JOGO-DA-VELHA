@@ -4,17 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
-    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
+<body> 
+    <a href="https://playordown.com/blog/the-history-of-tic-tac-toe/">THE HISTORY OF TIC-TAC-TOE</a>
+    <div class="box">
+        <a onclick="changeColor('pink')" id="pink">#FFC0CB</a>
+        <a onclick="changeColor('blue')" id="blue">#3399ff</a>
+        <a onclick="changeColor('red')" id="red">#FF0000</a>
+        <a onclick="changeColor('gray')" id="gray">#808080</a>
+        <a onclick="changeColor('teal')" id="teal">#008080</a>
+        <a onclick="changeColor('green')" id="green">#80ff00</a>
+        <a onclick="changeColor('yellow')" id="yellow">#FFFF00</a>
+        <a onclick="changeColor('purple')" id="purple">#800080</a>
+        <a onclick="changeColor('olive')" id="olive">#808000</a>
+        <a onclick="changeColor('brown')" id="brown">#BC8F8F</a>
+        <a onclick="changeColor('tomato')" id="tomato">#FF6347</a>
+        <a onclick="changeColor('navy')" id="navy">#000080</a>
+    </div>
     <div id="gameContainer"> 
-        <h1>Tic Tac Toe</h1>
+        <h1 class="text">Tic Tac Toe</h1>
         
+ 
         <div id="cellContainer"> 
-    <div cellIndex="0" class="cell">X</div>
-    <div cellIndex="1" class="cell">O</div>
+    <div cellIndex="0" class="cell"></div>
+    <div cellIndex="1" class="cell"></div>
     <div cellIndex="2" class="cell"></div>
     <div cellIndex="3" class="cell"></div>
     <div cellIndex="4" class="cell"></div>
@@ -28,5 +43,7 @@
     <button id="restartBtn">Restart</button>
     </main>
     <script src="./index.js"></script>
+   
+    </script>
 </body>
 </html>
